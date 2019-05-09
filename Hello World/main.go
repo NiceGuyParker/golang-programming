@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello World!")
+	n, _ := fmt.Println("Hello World!")
+	fmt.Println(n)
+
 }
